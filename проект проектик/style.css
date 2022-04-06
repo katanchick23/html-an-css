@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 500px;
+    background-image: url(logo-background.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7 );
+    z-index: 2;
+}
+.logo{
+    display: flex;
+}
+.logo-image{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 250px;
+    position: relative;
+    z-index: 3;
+}
+.name{
+    text-align: center;
+    margin-top: 20px;
+}
+.header-content{
+    z-index: 3;
+    position: relative;
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+}
+.menu{
+    background-color: aquamarine;
+}
+.content{
+    background-color: brown;
+}
+.adds{
+    background-color: black;
+}
+footer{
+    background-color: gray;
+    height: 1000px;
+}
