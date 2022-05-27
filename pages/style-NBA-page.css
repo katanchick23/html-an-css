@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-transform: uppercase;
+}
+header{
+    height: 100vh;
+    background-image: url(../images/logo-background.jpg);
+    background-size: cover;
+    position: relative;
+    /* background-attachment: fixed; */
+}
+header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7 );
+    z-index: 2;
+}
+.logo{
+    display: flex;
+    padding-top: 50px;
+}
+.logo-image{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}
+.name{
+    text-align: center;
+    margin-top: 20px;
+}
+.header-content{
+    z-index: 3;
+    position: relative;
+    color: white;
+    font-size: 36px;
+    transition: 0.1s;
+}
+.header-content:hover{
+    color: rgb(207, 207, 207);
+}
+.content-description{
+    color: white;
+    font-size: 18px;
+}
+.header-arrow{
+    display: flex;
+}
+.arrow{
+    z-index: 3;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 620px;
+}
+main{
+    display: flex;
+    height: 100%;
+    border-top: solid gray 1px;
+}
+.menu{
+    background-color: wheat;
+    width: 25%;
+    border-right: solid gray 2px;
+    border-bottom:  solid gray 2px;
+}
+.menu-name{
+    text-align: center;
+}
+.menu-text {
+    margin-top: 15px;
+    margin-left: 20%;
+    list-style-type: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu-items{
+    color: black;
+    transition: 0.2s;
+}
+.menu-items:hover{
+    color: white;
+}
+.content{
+    background-color: brown;
+    width: 50%;
+    border-right: solid gray 2px;
+    border-bottom:  solid gray 2px;
+}
+.content-text{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#nba{
+    text-align: center;
+}
+#content-text{
+    font-size: 28px;
+    margin-top: 26px;
+    overflow: hidden;
+}
+.main-content{
+    font-size: 22px;
+    margin-top: 26px;
+}
+.adds{
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 25%;
+    border-bottom:  solid gray 2px;
+}
+.menu,.content,.adds{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer{
+    background-color: gray;
+    height: 150px;
+}
+.footer-content{
+    padding: 40px 0 0 50px;
+    color: rgb(192, 192, 192);
+}
