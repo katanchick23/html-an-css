@@ -11,7 +11,7 @@ h1{
 }
 header{
     height: 100vh;
-    background-image: url(images/logo-background.jpg);
+    background-image: url(../images/logo-background.jpg);
     background-size: cover;
     position: relative;
     /* background-attachment: fixed; */
@@ -102,10 +102,26 @@ main{
     padding-right: 10%;
     padding-left: 10%;
 }
-#content-text{
+#content-text,.pheonix-name,.denver-name{
     font-size: 26px;
     margin-top: 26px;
     overflow: hidden;
+    text-align: center;
+}
+#west-fest{
+    text-align: center;
+}
+.jazz-image,.pheonix-image,.denever-image{
+    height: 25%;
+    width: 25%;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.utha-jazz,.peonix-suns,.denver-nuggets{
+    margin-top: 10px;
+    font-size: 22px;
 }
 .adds{
     text-align: center;

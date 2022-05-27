@@ -11,7 +11,7 @@ h1{
 }
 header{
     height: 100vh;
-    background-image: url(images/logo-background.jpg);
+    background-image: url(../images/logo-background.jpg);
     background-size: cover;
     position: relative;
     /* background-attachment: fixed; */
@@ -98,6 +98,9 @@ main{
     border-right: solid gray 2px;
     border-bottom:  solid gray 2px;
 }
+#matches{
+    text-align: center;
+}
 .content-text{
     padding-right: 10%;
     padding-left: 10%;
@@ -106,6 +109,16 @@ main{
     font-size: 26px;
     margin-top: 26px;
     overflow: hidden;
+    text-align: center;
+}
+.utha-name,.pheonix-name,.denver-name{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 26px;
+}
+.utha-jazz-content,.pheonix-suns-content,.denver-nuggets-content{
+    font-size: 22px;
+    margin-top: 10px;
 }
 .adds{
     text-align: center;

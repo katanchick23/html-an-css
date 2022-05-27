@@ -11,7 +11,7 @@ h1{
 }
 header{
     height: 100vh;
-    background-image: url(images/logo-background.jpg);
+    background-image: url(../images/logo-background.jpg);
     background-size: cover;
     position: relative;
     /* background-attachment: fixed; */
@@ -102,10 +102,17 @@ main{
     padding-right: 10%;
     padding-left: 10%;
 }
+#nba{
+    text-align: center;
+}
 #content-text{
-    font-size: 26px;
+    font-size: 28px;
     margin-top: 26px;
     overflow: hidden;
+}
+.main-content{
+    font-size: 22px;
+    margin-top: 26px;
 }
 .adds{
     text-align: center;
